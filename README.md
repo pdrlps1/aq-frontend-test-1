@@ -80,7 +80,7 @@ Na aplicação, há apenas três rotas a serem trabalhadas, sendo elas:
 * Neste teste não há pegadinhas ou detalhes escondidos, então não se preocupe em tentar procurá-los.
 
 # Submissão
-* Faça uma cópia do repositório, torne-o privado e adicione os usuários **@cgromulo** e **@abreufilho** como colaboradores usando o link abaixo:
+* Faça uma cópia do repositório, torne-o privado e adicione os usuários **@cgromulo**, **@rmfleitao**, **@lucashenris** e **@abreufilho** como colaboradores usando o link abaixo:
   * >https://github.com/SEU_USUARIO/aq-frontend-test/settings/access
 * Faça as alterações de modo a cumprir as tarefas deste teste:
     * Realize um commit por feature
