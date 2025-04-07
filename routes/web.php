@@ -4,12 +4,20 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+// Route::get('/', function () {
+//     return Inertia::render('Welcome', [
+//         'canLogin' => false,
+//         'canRegister' => false,
+//         'laravelVersion' => Application::VERSION,
+//         'phpVersion' => PHP_VERSION,
+//     ]);
+// });
+
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => false,
-        'canRegister' => false,
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
+    return Inertia::render('Cards', [
+        'title' => "Teste de Dashboard - Cards",
+        'mapsRoute' => "/mapa",
+        'graphsRoute' => "/grafico"
     ]);
 });
 
